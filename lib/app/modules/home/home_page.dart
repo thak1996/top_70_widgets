@@ -24,12 +24,17 @@ class _HomePageState extends State<HomePage> {
             children: [
               DsCard(
                   title: '1° MaterialBanner',
+                  
                   onTap: () => Modular.to.pushNamed('/materialbanner1/')),
               DsCard(
                   title: '2° PreferredSize',
                   onTap: () => Modular.to.pushNamed('/preferredsize2/')),
-              DsCard(title: '3° Card', onTap: () => print('botão clicado')),
-              DsCard(title: '4° Card', onTap: () => print('botão clicado')),
+              DsCard(
+                  title: '3° BottomSheet',
+                  onTap: () => Modular.to.pushNamed('/bottomsheet3/')),
+              DsCard(
+                  title: '4° LongPressDraggable',
+                  onTap: () => Modular.to.pushNamed('/longpressdraggable4/')),
               DsCard(title: '5° Card', onTap: () => print('botão clicado')),
               DsCard(title: '6° Card', onTap: () => print('botão clicado')),
               DsCard(title: '7° Card', onTap: () => print('botão clicado')),

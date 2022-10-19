@@ -13,7 +13,7 @@ class MaterialBanner1PageState extends State<MaterialBanner1Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: DsAppBar(title: 'MaterialBanner', centerTitle: false),
+      appBar: DsAppBar(title: 'MaterialBanner'),
       body: Center(
         child: ElevatedButton(
           child: DsText(text: 'Abrir'),
