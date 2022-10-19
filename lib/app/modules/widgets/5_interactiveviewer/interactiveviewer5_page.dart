@@ -14,9 +14,7 @@ class InteractiveViewer5PageState extends State<InteractiveViewer5Page> {
       backgroundColor: Colors.orangeAccent,
       body: InteractiveViewer(
         boundaryMargin: EdgeInsets.all(double.infinity),
-        child: Scaffold(
-          appBar: DsAppBar(title: 'InteractiveViewer'),
-        ),
+        child: Scaffold(appBar: DsAppBar(title: 'InteractiveViewer')),
       ),
     );
   }

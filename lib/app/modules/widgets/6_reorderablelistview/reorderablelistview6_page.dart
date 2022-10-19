@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:top_70_widgets/app/shared/design_system/atoms/ds_text.dart';
 import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
 
 class ReorderablelistView6Page extends StatefulWidget {
