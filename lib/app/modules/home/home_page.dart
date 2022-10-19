@@ -5,8 +5,7 @@ import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart
 import 'package:top_70_widgets/app/shared/design_system/organisms/ds_card.dart';
 
 class HomePage extends StatefulWidget {
-  final String title;
-  const HomePage({Key? key, this.title = 'Home'}) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -23,21 +22,33 @@ class _HomePageState extends State<HomePage> {
           Column(
             children: [
               DsCard(
-                  title: '1° MaterialBanner',
-                  
-                  onTap: () => Modular.to.pushNamed('/materialbanner1/')),
+                title: '1° MaterialBanner',
+                onTap: () => Modular.to.pushNamed('/materialbanner1/'),
+              ),
               DsCard(
-                  title: '2° PreferredSize',
-                  onTap: () => Modular.to.pushNamed('/preferredsize2/')),
+                title: '2° PreferredSize',
+                onTap: () => Modular.to.pushNamed('/preferredsize2/'),
+              ),
               DsCard(
-                  title: '3° BottomSheet',
-                  onTap: () => Modular.to.pushNamed('/bottomsheet3/')),
+                title: '3° BottomSheet',
+                onTap: () => Modular.to.pushNamed('/bottomsheet3/'),
+              ),
               DsCard(
-                  title: '4° LongPressDraggable',
-                  onTap: () => Modular.to.pushNamed('/longpressdraggable4/')),
-              DsCard(title: '5° Card', onTap: () => print('botão clicado')),
-              DsCard(title: '6° Card', onTap: () => print('botão clicado')),
-              DsCard(title: '7° Card', onTap: () => print('botão clicado')),
+                title: '4° LongPressDraggable',
+                onTap: () => Modular.to.pushNamed('/longpressdraggable4/'),
+              ),
+              DsCard(
+                title: '5° InteractiveViewer',
+                onTap: () => Modular.to.pushNamed('/interactiveviewer5/'),
+              ),
+              DsCard(
+                title: '6° ReorderableListView',
+                onTap: () => Modular.to.pushNamed('/reorderablelistview6/'),
+              ),
+              DsCard(
+                title: '7° Card',
+                onTap: () => Modular.to.pushNamed(''),
+              ),
             ],
           ),
         ],
