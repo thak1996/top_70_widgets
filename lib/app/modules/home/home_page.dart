@@ -51,8 +51,12 @@ class _HomePageState extends State<HomePage> {
               DsCard(
                   title: '10° Table',
                   onTap: () => Modular.to.pushNamed('/table10/')),
-              DsCard(title: '11°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '12°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(
+                  title: '11° AlertDialog',
+                  onTap: () => Modular.to.pushNamed('/alertdialog11/')),
+              DsCard(
+                  title: '12° AnimatedContainer',
+                  onTap: () => Modular.to.pushNamed('/animatedcontainer12/')),
               DsCard(title: '13°', onTap: () => Modular.to.pushNamed('')),
               DsCard(title: '14°', onTap: () => Modular.to.pushNamed('')),
               DsCard(title: '15°', onTap: () => Modular.to.pushNamed('')),

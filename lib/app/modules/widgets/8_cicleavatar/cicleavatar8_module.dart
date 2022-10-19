@@ -1,4 +1,4 @@
-import 'package:top_70_widgets/app/modules/widgets/8_cicleavatar/cicleavatar8_page.dart';
+import 'package:top_70_widgets/app/modules/widgets/8_cicleAvatar/cicleavatar8_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class CicleAvatar8Module extends Module {

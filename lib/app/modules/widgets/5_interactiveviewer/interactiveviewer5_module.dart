@@ -1,4 +1,4 @@
-import 'package:top_70_widgets/app/modules/widgets/5_interactiveviewer/interactiveviewer5_page.dart';
+import 'package:top_70_widgets/app/modules/widgets/5_interactiveViewer/interactiveviewer5_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class InteractiveViewer5Module extends Module {
