@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                   onTap: () => Modular.to.pushNamed('/cicleavatar8/')),
               DsCard(
                   title: '9° CupertinoContextMenu',
-                  onTap: () => Modular.to.pushNamed('/cupertinocontext/')),
+                  onTap: () => Modular.to.pushNamed('/cupertinocontext9/')),
               DsCard(
                   title: '10° Table',
                   onTap: () => Modular.to.pushNamed('/table10/')),
@@ -57,9 +57,40 @@ class _HomePageState extends State<HomePage> {
               DsCard(
                   title: '12° AnimatedContainer',
                   onTap: () => Modular.to.pushNamed('/animatedcontainer12/')),
-              DsCard(title: '13°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '14°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '15°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(
+                  title: '13° Card',
+                  onTap: () => Modular.to.pushNamed('/card13/')),
+              DsCard(
+                  title: '14° DatePicker',
+                  onTap: () => Modular.to.pushNamed('/datepicker14/')),
+              DsCard(
+                  title: '15° TimePicker',
+                  onTap: () => Modular.to.pushNamed('/timepicker15/')),
+              DsCard(
+                  title: '16° DateRangerPicker',
+                  onTap: () => Modular.to.pushNamed('/daterangerpicker16/')),
+              DsCard(
+                  title: '17° Dismissible',
+                  onTap: () => Modular.to.pushNamed('/dismissible17/')),
+              DsCard(
+                  title: '18° DraggableScrollable',
+                  onTap: () => Modular.to.pushNamed('/draggablescroll18/')),
+              DsCard(
+                  title: '19° DragTarget',
+                  onTap: () => Modular.to.pushNamed('/dragtarget19/')),
+              DsCard(
+                  title: '20° Draggable',
+                  onTap: () => Modular.to.pushNamed('/draggable20/')),
+              DsCard(title: '21°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '22°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '23°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '24°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '25°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '26°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '27°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '28°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '29°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '30°', onTap: () => Modular.to.pushNamed('')),
             ],
           ),
         ],
