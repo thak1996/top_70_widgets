@@ -81,8 +81,12 @@ class _HomePageState extends State<HomePage> {
               DsCard(
                   title: '20° Draggable',
                   onTap: () => Modular.to.pushNamed('/draggable20/')),
-              DsCard(title: '21°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '22°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(
+                  title: '21° AnimatedCrossFade',
+                  onTap: () => Modular.to.pushNamed('/animatedcrossfade21/')),
+              DsCard(
+                  title: '22° Drawer',
+                  onTap: () => Modular.to.pushNamed('/drawer22/')),
               DsCard(title: '23°', onTap: () => Modular.to.pushNamed('')),
               DsCard(title: '24°', onTap: () => Modular.to.pushNamed('')),
               DsCard(title: '25°', onTap: () => Modular.to.pushNamed('')),

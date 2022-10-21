@@ -7,6 +7,8 @@ import 'package:top_70_widgets/app/modules/widgets/16_dateRangerPicker/dateRange
 import 'package:top_70_widgets/app/modules/widgets/17_dismissible/dismissible_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/18_draggableScrollable/draggableScrollable_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/20_draggable/draggable_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/21_animatedCrossFade/animatedCrossFade_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/22_drawer/drawer_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/3_bottomSheet/bottomsheet3_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/1_materialBanner/materialBanner1_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/2_preferredSize/preferredsize2_module.dart';
@@ -49,5 +51,7 @@ class AppModule extends Module {
     ModuleRoute('/draggablescroll18/', module: DraggableScrollableModule()),
     ModuleRoute('/dragtarget19/', module: DragTargetModule()),
     ModuleRoute('/draggable20/', module: DraggableModule()),
+    ModuleRoute('/animatedcrossfade21/', module: AnimatedCrossFadeModule()),
+    ModuleRoute('/drawer22/', module: DrawerModule()),
   ];
 }
