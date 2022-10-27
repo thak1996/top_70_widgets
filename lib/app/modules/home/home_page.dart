@@ -87,14 +87,36 @@ class _HomePageState extends State<HomePage> {
               DsCard(
                   title: '22° Drawer',
                   onTap: () => Modular.to.pushNamed('/drawer22/')),
-              DsCard(title: '23°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '24°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '25°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '26°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '27°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '28°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '29°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '30°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(
+                  title: '23° DrawerHeader',
+                  onTap: () => Modular.to.pushNamed('/drawerheader23/')),
+              DsCard(
+                  title: '24° PopouMenuButton',
+                  onTap: () => Modular.to.pushNamed('/popoumenubutton24/')),
+              DsCard(
+                  title: '25° AnimatedDefaultTextStyle',
+                  onTap: () => Modular.to.pushNamed('/animated25/')),
+              DsCard(
+                  title: '26° AspecRatio',
+                  onTap: () => Modular.to.pushNamed('/aspectratio26/')),
+              DsCard(
+                  title: '27° AutoComplete',
+                  onTap: () => Modular.to.pushNamed('/autocomplete27/')),
+              DsCard(
+                  title: '28° Expanded',
+                  onTap: () => Modular.to.pushNamed('/expanded28/')),
+              DsCard(
+                  title: '29° Flexible',
+                  onTap: () => Modular.to.pushNamed('/flexible29/')),
+              DsCard(
+                  title: '30° FloatingActionButon',
+                  onTap: () => Modular.to.pushNamed('/floatingaction30/')),
+              DsCard(
+                  title: '31° Form',
+                  onTap: () => Modular.to.pushNamed('/form31/')),
+              DsCard(title: '32°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '33°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '34°', onTap: () => Modular.to.pushNamed('')),
             ],
           ),
         ],

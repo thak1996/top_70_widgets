@@ -9,6 +9,12 @@ import 'package:top_70_widgets/app/modules/widgets/18_draggableScrollable/dragga
 import 'package:top_70_widgets/app/modules/widgets/20_draggable/draggable_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/21_animatedCrossFade/animatedCrossFade_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/22_drawer/drawer_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/23_drawerHeader/drawerHeader_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/24_popupMenuButton/popupMenuButton_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/26_aspectRatio/aspectRatio_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/27_autoComplete/autoComplete_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/30_floatingActionButton/floatingActionButton_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/31_form/form_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/3_bottomSheet/bottomsheet3_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/1_materialBanner/materialBanner1_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/2_preferredSize/preferredsize2_module.dart';
@@ -21,6 +27,9 @@ import 'package:top_70_widgets/app/modules/widgets/9_cupertinoContextMenu/cupert
 import 'package:top_70_widgets/app/modules/widgets/10_table/table10_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/11_alertDialog/alertDialog11_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/19_dragTarget/dragTarget_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/25_animatedDefaultTextStyle/animatedDefaultTextStyle_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/28_expanded/expanded_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/29_flexible/flexible_module.dart';
 
 import 'modules/home/home_module.dart';
 
@@ -53,5 +62,14 @@ class AppModule extends Module {
     ModuleRoute('/draggable20/', module: DraggableModule()),
     ModuleRoute('/animatedcrossfade21/', module: AnimatedCrossFadeModule()),
     ModuleRoute('/drawer22/', module: DrawerModule()),
+    ModuleRoute('/drawerheader23/', module: DrawerHeaderModule()),
+    ModuleRoute('/popoumenubutton24/', module: PopupMenuButtonModule()),
+    ModuleRoute('/animated25/', module: AnimatedDefaultTextStyleModule()),
+    ModuleRoute('/aspectratio26/', module: AspectRatioModule()),
+    ModuleRoute('/autocomplete27/', module: AutoCompleteModule()),
+    ModuleRoute('/expanded28/', module: ExpandedModule()),
+    ModuleRoute('/flexible29/', module: FlexibleModule()),
+    ModuleRoute('/floatingaction30/', module: FloatingActionButtonModule()),
+    ModuleRoute('/form31/', module: FormModule()),
   ];
 }

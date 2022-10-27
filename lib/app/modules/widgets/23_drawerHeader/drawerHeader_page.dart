@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
 import 'package:top_70_widgets/app/shared/design_system/atoms/ds_text.dart';
 import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
 
-class DrawerPage extends StatefulWidget {
-  const DrawerPage({Key? key}) : super(key: key);
+class DrawerHeaderPage extends StatefulWidget {
+  const DrawerHeaderPage({Key? key}) : super(key: key);
+
   @override
-  DrawerPageState createState() => DrawerPageState();
+  DrawerHeaderPageState createState() => DrawerHeaderPageState();
 }
 
-class DrawerPageState extends State<DrawerPage> {
+class DrawerHeaderPageState extends State<DrawerHeaderPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,11 +17,11 @@ class DrawerPageState extends State<DrawerPage> {
       endDrawer: Drawer(
           child: ListView(
         children: [
+          DrawerHeader(
+              decoration: BoxDecoration(color: Colors.blue),
+              child: DsText(text: 'Drawer Header')),
           ListTile(title: DsText(text: 'Item 1'), onTap: () {}),
           ListTile(title: DsText(text: 'Item 2'), onTap: () {}),
-          ListTile(
-              title: DsText(text: 'Retornar ao Menu'),
-              onTap: () => Modular.to.popUntil(ModalRoute.withName('/')))
         ],
       )),
       body: Center(
