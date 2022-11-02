@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:top_70_widgets/app/shared/design_system/atoms/ds_text.dart';
+import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
 
 class PopupMenuButtonPage extends StatefulWidget {
   const PopupMenuButtonPage({Key? key}) : super(key: key);
@@ -14,14 +15,17 @@ class PopupMenuButtonPageState extends State<PopupMenuButtonPage> {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      title: DsText(text: title),
-      trailing: PopupMenuButton(
-        onSelected: (String newValue) => setState(() => title = newValue),
-        itemBuilder: (context) => [
-          PopupMenuItem(child: DsText(text: 'Item 1'), value: item1),
-          PopupMenuItem(child: DsText(text: 'Item 2'), value: item2),
-        ],
+    return Scaffold(
+      appBar: DsAppBar(title: 'PopupMenuButton'),
+      body: ListTile(
+        title: DsText(text: title),
+        trailing: PopupMenuButton(
+          onSelected: (String newValue) => setState(() => title = newValue),
+          itemBuilder: (context) => [
+            PopupMenuItem(child: DsText(text: 'Item 1'), value: item1),
+            PopupMenuItem(child: DsText(text: 'Item 2'), value: item2),
+          ],
+        ),
       ),
     );
   }

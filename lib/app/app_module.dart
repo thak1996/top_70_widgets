@@ -15,6 +15,7 @@ import 'package:top_70_widgets/app/modules/widgets/26_aspectRatio/aspectRatio_mo
 import 'package:top_70_widgets/app/modules/widgets/27_autoComplete/autoComplete_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/30_floatingActionButton/floatingActionButton_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/31_form/form_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/32_textFormField/textFormField_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/3_bottomSheet/bottomsheet3_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/1_materialBanner/materialBanner1_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/2_preferredSize/preferredsize2_module.dart';
@@ -30,6 +31,7 @@ import 'package:top_70_widgets/app/modules/widgets/19_dragTarget/dragTarget_modu
 import 'package:top_70_widgets/app/modules/widgets/25_animatedDefaultTextStyle/animatedDefaultTextStyle_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/28_expanded/expanded_module.dart';
 import 'package:top_70_widgets/app/modules/widgets/29_flexible/flexible_module.dart';
+import 'package:top_70_widgets/app/modules/widgets/33_animatedIcon/animatedIcon_module.dart';
 
 import 'modules/home/home_module.dart';
 
@@ -71,5 +73,7 @@ class AppModule extends Module {
     ModuleRoute('/flexible29/', module: FlexibleModule()),
     ModuleRoute('/floatingaction30/', module: FloatingActionButtonModule()),
     ModuleRoute('/form31/', module: FormModule()),
+    ModuleRoute('/textformfield32/', module: TextFormFieldModule()),
+    ModuleRoute('/animatedicon33/', module: AnimatedIconModule()),
   ];
 }

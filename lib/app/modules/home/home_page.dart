@@ -114,9 +114,20 @@ class _HomePageState extends State<HomePage> {
               DsCard(
                   title: '31° Form',
                   onTap: () => Modular.to.pushNamed('/form31/')),
-              DsCard(title: '32°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '33°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '34°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(
+                  title: '32° TextFormField',
+                  onTap: () => Modular.to.pushNamed('/textformfield32/')),
+              DsCard(
+                  title: '33° AnimatedIcon',
+                  onTap: () => Modular.to.pushNamed('/animatedicon33/')),
+              DsCard(title: '35°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '36°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '37°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '38°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '39°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '40°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '41°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '42°', onTap: () => Modular.to.pushNamed('')),
             ],
           ),
         ],
