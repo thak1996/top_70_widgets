@@ -1,5 +1,4 @@
-import 'package:flutter_modular/flutter_modular.dart';
-
+import '/app/imports.dart';
 import 'home_page.dart';
 
 class HomeModule extends Module {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:top_70_widgets/app/shared/design_system/atoms/ds_mediaquerry.dart';
-import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
-import 'package:top_70_widgets/app/shared/design_system/organisms/ds_card.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/atoms/ds_mediaquerry.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/molecules/ds_appbar.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/organisms/ds_card.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -173,6 +173,30 @@ class _HomePageState extends State<HomePage> {
               DsCard(title: '39°', onTap: () => Modular.to.pushNamed('')),
               DsCard(title: '40°', onTap: () => Modular.to.pushNamed('')),
               DsCard(title: '41°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '42°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '43°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '44°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '45°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '46°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '47°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '48°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '49°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '50°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '51°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '52°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '53°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '54°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '55°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '56°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '57°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '58°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '59°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '60°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '61°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '62°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '63°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '64°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(title: '65°', onTap: () => Modular.to.pushNamed('')),
             ],
           ),
         ],

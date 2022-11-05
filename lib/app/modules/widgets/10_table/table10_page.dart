@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:top_70_widgets/app/shared/design_system/atoms/ds_text.dart';
-import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/atoms/ds_text.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/molecules/ds_appbar.dart';
 
 class Table10Page extends StatefulWidget {
   const Table10Page({Key? key}) : super(key: key);

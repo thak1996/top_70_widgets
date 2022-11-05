@@ -1,4 +1,4 @@
-import 'package:top_70_widgets/app/modules/widgets/2_preferredSize/preferredsize2_page.dart';
+import 'package:top_widgets_flutter/app/modules/widgets/2_preferredSize/preferredsize2_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class Preferredsize2Module extends Module {

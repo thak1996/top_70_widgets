@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:top_70_widgets/app/shared/design_system/atoms/ds_text.dart';
-import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/atoms/ds_text.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/molecules/ds_appbar.dart';
 
 class DrawerPage extends StatefulWidget {
   const DrawerPage({Key? key}) : super(key: key);

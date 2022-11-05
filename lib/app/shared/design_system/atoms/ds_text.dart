@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:top_70_widgets/app/shared/design_system/styles.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/styles.dart';
 
 class DsText extends StatelessWidget {
   const DsText({

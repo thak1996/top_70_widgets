@@ -1,43 +1,4 @@
-import 'package:flutter_modular/flutter_modular.dart';
-import 'package:top_70_widgets/app/modules/widgets/12_animatedContainer/animatedContainer12_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/13_card/card13_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/14_datePicker/datePicker14_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/15_TimePicker/timePicker15_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/16_dateRangerPicker/dateRangerPicker_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/17_dismissible/dismissible_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/18_draggableScrollable/draggableScrollable_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/20_draggable/draggable_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/21_animatedCrossFade/animatedCrossFade_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/22_drawer/drawer_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/23_drawerHeader/drawerHeader_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/24_popupMenuButton/popupMenuButton_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/26_aspectRatio/aspectRatio_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/27_autoComplete/autoComplete_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/30_floatingActionButton/floatingActionButton_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/31_form/form_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/32_textFormField/textFormField_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/34_choiceChip/choiceChip_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/35_fadeInImage/fadeInImage_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/36_fractionallySizedBox/fractionallySizedBox_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/37_futureBuilder/futureBuilder_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/3_bottomSheet/bottomsheet3_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/1_materialBanner/materialBanner1_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/2_preferredSize/preferredsize2_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/4_longPressDraggable/longpressdraggable4_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/5_interactiveViewer/interactiveviewer5_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/6_reorderableListView/reorderablelistview6_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/7_checkboxListTile/checkboxlisttile7_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/8_cicleAvatar/cicleavatar8_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/9_cupertinoContextMenu/cupertinocontextmenu9_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/10_table/table10_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/11_alertDialog/alertDialog11_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/19_dragTarget/dragTarget_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/25_animatedDefaultTextStyle/animatedDefaultTextStyle_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/28_expanded/expanded_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/29_flexible/flexible_module.dart';
-import 'package:top_70_widgets/app/modules/widgets/33_animatedIcon/animatedIcon_module.dart';
-
-import 'modules/home/home_module.dart';
+import 'imports.dart';
 
 class AppModule extends Module {
   @override
@@ -83,5 +44,40 @@ class AppModule extends Module {
     ModuleRoute('/35/', module: FadeInImageModule()),
     ModuleRoute('/36/', module: FractionallySizedBoxModule()),
     ModuleRoute('/37/', module: FutureBuilderModule()),
+    ModuleRoute('/38/', module: GestureDetectorModule()),
+    ModuleRoute('/39/', module: GridViewModule()),
+    ModuleRoute('/40/', module: GridTileModule()),
+    ModuleRoute('/41/', module: GridTileWidgetModule()),
+    ModuleRoute('/42/', module: AnimatedRotationModule()),
+    ModuleRoute('/43/', module: HeroModule()),
+    ModuleRoute('/44/', module: IgnorePointerModule()),
+    ModuleRoute('/45/', module: IndexedStackModule()),
+    ModuleRoute('/46/', module: ListViewModule()),
+    ModuleRoute('/47/', module: ListTileModule()),
+    ModuleRoute('/48/', module: NavigationBarModule()),
+    ModuleRoute('/49/', module: AnimatedOpacityModule()),
+    ModuleRoute('/50/', module: StackModule()),
+    ModuleRoute('/51/', module: StepperModule()),
+    ModuleRoute('/52/', module: StreamBuilderModule()),
+    ModuleRoute('/53/', module: SwitchModule()),
+    ModuleRoute('/54/', module: TabPageSelectorModule()),
+    ModuleRoute('/55/', module: TabBarModule()),
+    ModuleRoute('/56/', module: PageViewModule()),
+    ModuleRoute('/57/', module: PositionedModule()),
+    ModuleRoute('/58/', module: RadioListTileModule()),
+    ModuleRoute('/59/', module: RefreshindicatorModule()),
+    ModuleRoute('/60/', module: RotatedBoxModule()),
+    ModuleRoute('/61/', module: SelectableTextModule()),
+    ModuleRoute('/62/', module: SliderModule()),
+    ModuleRoute('/63/', module: SnackBarModule()),
+    ModuleRoute('/64/', module: VisibilityModule()),
+    ModuleRoute('/65/', module: WrapModule()),
+    ModuleRoute('/66/', module: SafeAreaModule()),
+    ModuleRoute('/67/', module: LayoutBuilderModule()),
+    ModuleRoute('/68/', module: OrientationBuilderModule()),
+    ModuleRoute('/69/', module: OverflowBarModule()),
+    ModuleRoute('/70/', module: FittedBoxModule()),
+    ModuleRoute('/71/', module: ExpasionTileModule()),
+    ModuleRoute('/72/', module: CupertinoSlidingSegmentedControlModule()),
   ];
 }

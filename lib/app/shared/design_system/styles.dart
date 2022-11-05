@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:top_70_widgets/app/shared/design_system/app_colors.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/app_colors.dart';
 
 //primary color
 const TextStyle h5Primary = TextStyle(

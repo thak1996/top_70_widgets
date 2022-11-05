@@ -1,4 +1,4 @@
-import 'package:top_70_widgets/app/modules/widgets/12_animatedContainer/animatedContainer12_page.dart';
+import 'package:top_widgets_flutter/app/modules/widgets/12_animatedContainer/animatedContainer12_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class AnimatedContainer12Module extends Module {

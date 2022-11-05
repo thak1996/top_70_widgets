@@ -1,5 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:top_70_widgets/app/modules/widgets/55_tabBar/tabBar_page.dart';
+import 'package:top_widgets_flutter/app/modules/widgets/55_tabBar/tabBar_page.dart';
 
 class TabBarModule extends Module {
   @override

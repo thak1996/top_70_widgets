@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/molecules/ds_appbar.dart';
 
 class AnimatedContainer12Page extends StatefulWidget {
   const AnimatedContainer12Page({Key? key}) : super(key: key);

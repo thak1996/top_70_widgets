@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:top_70_widgets/app/shared/design_system/molecules/ds_appbar.dart';
+import 'package:top_widgets_flutter/app/shared/design_system/molecules/ds_appbar.dart';
 
 class ExpasionTilePage extends StatefulWidget {
   const ExpasionTilePage({Key? key}) : super(key: key);
