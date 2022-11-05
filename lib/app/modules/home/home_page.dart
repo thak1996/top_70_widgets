@@ -169,34 +169,146 @@ class _HomePageState extends State<HomePage> {
                 title: '37° FutureBuilder',
                 onTap: () => Modular.to.pushNamed('/37/'),
               ),
-              DsCard(title: '38°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '39°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '40°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '41°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '42°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '43°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '44°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '45°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '46°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '47°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '48°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '49°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '50°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '51°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '52°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '53°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '54°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '55°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '56°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '57°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '58°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '59°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '60°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '61°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '62°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '63°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '64°', onTap: () => Modular.to.pushNamed('')),
-              DsCard(title: '65°', onTap: () => Modular.to.pushNamed('')),
+              DsCard(
+                title: '38° GestureDetector',
+                onTap: () => Modular.to.pushNamed('/38/'),
+              ),
+              DsCard(
+                title: '39° GridView',
+                onTap: () => Modular.to.pushNamed('/39/'),
+              ),
+              DsCard(
+                title: '40° GridTile',
+                onTap: () => Modular.to.pushNamed('/40/'),
+              ),
+              DsCard(
+                title: '41° GridTileWidget',
+                onTap: () => Modular.to.pushNamed('/41/'),
+              ),
+              DsCard(
+                title: '42° AnimatedRotation',
+                onTap: () => Modular.to.pushNamed('/42/'),
+              ),
+              DsCard(
+                title: '43° Hero',
+                onTap: () => Modular.to.pushNamed('/43/'),
+              ),
+              DsCard(
+                title: '44° IgnorerPointer',
+                onTap: () => Modular.to.pushNamed('/44/'),
+              ),
+              DsCard(
+                title: '45° IndexedStack',
+                onTap: () => Modular.to.pushNamed('/45/'),
+              ),
+              DsCard(
+                title: '46° ListView',
+                onTap: () => Modular.to.pushNamed('/46/'),
+              ),
+              DsCard(
+                title: '47° ListTile',
+                onTap: () => Modular.to.pushNamed('/47/'),
+              ),
+              DsCard(
+                title: '48° NavigationBar',
+                onTap: () => Modular.to.pushNamed('/48/'),
+              ),
+              DsCard(
+                title: '49° AnimatedOpacity',
+                onTap: () => Modular.to.pushNamed('/49/'),
+              ),
+              DsCard(
+                title: '50° Stack',
+                onTap: () => Modular.to.pushNamed('/50/'),
+              ),
+              DsCard(
+                title: '51° Stepper',
+                onTap: () => Modular.to.pushNamed('/51/'),
+              ),
+              DsCard(
+                title: '52° StreamBuilder',
+                onTap: () => Modular.to.pushNamed('/52/'),
+              ),
+              DsCard(
+                title: '53° Switch',
+                onTap: () => Modular.to.pushNamed('/53/'),
+              ),
+              DsCard(
+                title: '54° TabPageSelector',
+                onTap: () => Modular.to.pushNamed('/54/'),
+              ),
+              DsCard(
+                title: '55° TabBar',
+                onTap: () => Modular.to.pushNamed('/55/'),
+              ),
+              DsCard(
+                title: '56° PageView',
+                onTap: () => Modular.to.pushNamed('/56/'),
+              ),
+              DsCard(
+                title: '57° Positioned',
+                onTap: () => Modular.to.pushNamed('/57/'),
+              ),
+              DsCard(
+                title: '58° RadioListTile',
+                onTap: () => Modular.to.pushNamed('/58/'),
+              ),
+              DsCard(
+                title: '59° RefreshIndicator',
+                onTap: () => Modular.to.pushNamed('/59/'),
+              ),
+              DsCard(
+                title: '60° RotatedBox',
+                onTap: () => Modular.to.pushNamed('/60/'),
+              ),
+              DsCard(
+                title: '61° SelectableText',
+                onTap: () => Modular.to.pushNamed('/61/'),
+              ),
+              DsCard(
+                title: '62° Slider',
+                onTap: () => Modular.to.pushNamed('/62/'),
+              ),
+              DsCard(
+                title: '63° SnackBar',
+                onTap: () => Modular.to.pushNamed('/63/'),
+              ),
+              DsCard(
+                title: '64° Visibility',
+                onTap: () => Modular.to.pushNamed('/64/'),
+              ),
+              DsCard(
+                title: '65° Wrap',
+                onTap: () => Modular.to.pushNamed('/65/'),
+              ),
+              DsCard(
+                title: '66° SafeArea',
+                onTap: () => Modular.to.pushNamed('/66/'),
+              ),
+              DsCard(
+                title: '67° LayoutBuilder',
+                onTap: () => Modular.to.pushNamed('/67/'),
+              ),
+              DsCard(
+                title: '68° OrientationBuilder',
+                onTap: () => Modular.to.pushNamed('/68/'),
+              ),
+              DsCard(
+                title: '69° OverFlowBar',
+                onTap: () => Modular.to.pushNamed('/69/'),
+              ),
+              DsCard(
+                title: '70° FittedBox',
+                onTap: () => Modular.to.pushNamed('/70/'),
+              ),
+              DsCard(
+                title: '71° ExpasionTile',
+                onTap: () => Modular.to.pushNamed('/71/'),
+              ),
+              DsCard(
+                title: '72° CupertinoSlidingSegmentedControl',
+                onTap: () => Modular.to.pushNamed('/72/'),
+              ),
             ],
           ),
         ],
