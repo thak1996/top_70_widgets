@@ -12,8 +12,13 @@ class RotatedBoxPageState extends State<RotatedBoxPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'RotatedBox'),
-      body: Column(
-        children: <Widget>[],
+      body: Center(
+        child: RotatedBox(
+          quarterTurns: 1,
+          child: FlutterLogo(
+            size: 200,
+          ),
+        ),
       ),
     );
   }

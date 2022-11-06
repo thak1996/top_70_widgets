@@ -13,6 +13,7 @@ class TabBarPageState extends State<TabBarPage> {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
+          title: Text('Flutter Mapp'),
           bottom: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.home)),
@@ -20,7 +21,6 @@ class TabBarPageState extends State<TabBarPage> {
               Tab(icon: Icon(Icons.person)),
             ],
           ),
-          title: Text('Flutter Mapp'),
         ),
         body: TabBarView(
           children: [

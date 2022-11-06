@@ -8,12 +8,28 @@ class VisibilityPage extends StatefulWidget {
 }
 
 class VisibilityPageState extends State<VisibilityPage> {
+  bool isVisible = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'Visibility'),
-      body: Column(
-        children: <Widget>[],
+      body: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            TextButton(
+              child: Text('Show / Hide'),
+              onPressed: () => setState(() => isVisible = !isVisible),
+            ),
+            Image.asset('assets/images/image_21_2.png', width: 300),
+            SizedBox(height: 30),
+            Visibility(
+              visible: isVisible,
+              child: Image.asset('assets/images/image_21.jpeg', width: 300),
+            )
+          ],
+        ),
       ),
     );
   }

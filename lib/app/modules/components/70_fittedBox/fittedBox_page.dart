@@ -12,8 +12,17 @@ class FittedBoxPageState extends State<FittedBoxPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'FittedBox'),
-      body: Column(
-        children: <Widget>[],
+      body: Center(
+        child: Container(
+          width: double.infinity,
+          color: Colors.orangeAccent,
+          child: FittedBox(
+            child: Text(
+              'This is a pretty long Text',
+              style: TextStyle(color: Colors.black),
+            ),
+          ),
+        ),
       ),
     );
   }

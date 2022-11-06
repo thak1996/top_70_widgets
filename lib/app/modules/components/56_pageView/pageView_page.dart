@@ -12,8 +12,36 @@ class PageViewPageState extends State<PageViewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'PageView'),
-      body: Column(
-        children: <Widget>[],
+      body: PageView(
+        children: [
+          Container(
+            color: Colors.orangeAccent,
+            child: Center(
+              child: Text(
+                '1',
+                style: TextStyle(fontSize: 100),
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.blueAccent,
+            child: Center(
+              child: Text(
+                '2',
+                style: TextStyle(fontSize: 100),
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.blueGrey,
+            child: Center(
+              child: Text(
+                '3',
+                style: TextStyle(fontSize: 100),
+              ),
+            ),
+          )
+        ],
       ),
     );
   }

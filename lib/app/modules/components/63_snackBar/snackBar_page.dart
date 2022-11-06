@@ -12,8 +12,21 @@ class SnackBarPageState extends State<SnackBarPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'SnackBar'),
-      body: Column(
-        children: <Widget>[],
+      body: Center(
+        child: ElevatedButton(
+          child: Text('Show SnackBar'),
+          onPressed: () {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('Flutter Mapp'),
+                action: SnackBarAction(
+                  label: 'Undo',
+                  onPressed: () {},
+                ),
+              ),
+            );
+          },
+        ),
       ),
     );
   }

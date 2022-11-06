@@ -12,8 +12,11 @@ class SafeAreaPageState extends State<SafeAreaPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'SafeArea'),
-      body: Column(
-        children: <Widget>[],
+      body: SafeArea(
+        child: Text(
+          'Flutter Mapp',
+          style: TextStyle(fontSize: 30),
+        ),
       ),
     );
   }

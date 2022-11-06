@@ -12,8 +12,21 @@ class WrapPageState extends State<WrapPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'Wrap'),
-      body: Column(
-        children: <Widget>[],
+      body: Center(
+        child: Wrap(
+          spacing: 10,
+          runSpacing: 10,
+          children: List.generate(
+            10,
+            (index) => Chip(
+              label: Text('Mapp'),
+              avatar: CircleAvatar(
+                backgroundColor: Colors.orangeAccent,
+                child: Icon(Icons.person),
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }

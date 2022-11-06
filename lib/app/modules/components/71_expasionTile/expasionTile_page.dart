@@ -8,12 +8,27 @@ class ExpasionTilePage extends StatefulWidget {
 }
 
 class ExpasionTilePageState extends State<ExpasionTilePage> {
+  final bool _customIcon = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'ExpasionTile'),
       body: Column(
-        children: <Widget>[],
+        children: <Widget>[
+          ExpansionTile(
+            title: Text('Expasion Tile'),
+            controlAffinity: ListTileControlAffinity.leading,
+            children: [
+              ListTile(
+                title: Text('This is Tile Number 1'),
+              ),
+              ListTile(
+                title: Text('This is Tile Number 2'),
+              )
+            ],
+          )
+        ],
       ),
     );
   }

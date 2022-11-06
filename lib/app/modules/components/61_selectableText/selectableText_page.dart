@@ -12,8 +12,12 @@ class SelectableTextPageState extends State<SelectableTextPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DsAppBar(title: 'SectableText'),
-      body: Column(
-        children: <Widget>[],
+      body: Center(
+        child: SelectableText(
+          'This is selectable',
+          style: TextStyle(fontSize: 30),
+          onSelectionChanged: (selection, cause) {},
+        ),
       ),
     );
   }
