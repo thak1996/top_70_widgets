@@ -8,8 +8,6 @@ class ExpasionTilePage extends StatefulWidget {
 }
 
 class ExpasionTilePageState extends State<ExpasionTilePage> {
-  final bool _customIcon = false;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

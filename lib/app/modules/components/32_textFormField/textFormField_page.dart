@@ -18,7 +18,7 @@ class TextFormFieldPageState extends State<TextFormFieldPage> {
         child: Form(
           autovalidateMode: AutovalidateMode.always,
           onChanged: () => setState(() {
-            Form.of(primaryFocus!.context!)!.save();
+            Form.of(primaryFocus!.context!).save();
           }),
           child: Column(
             mainAxisSize: MainAxisSize.min,

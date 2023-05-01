@@ -23,39 +23,39 @@ class _HomePageState extends State<HomePage> {
             children: [
               DsCard(
                 title: '1° MaterialBanner',
-                onTap: () => Modular.to.pushNamed('/1/'),
+                onTap: () => Modular.to.pushNamed('/01/'),
               ),
               DsCard(
                 title: '2° PreferredSize',
-                onTap: () => Modular.to.pushNamed('/2/'),
+                onTap: () => Modular.to.pushNamed('/02/'),
               ),
               DsCard(
                 title: '3° BottomSheet',
-                onTap: () => Modular.to.pushNamed('/3/'),
+                onTap: () => Modular.to.pushNamed('/03/'),
               ),
               DsCard(
                 title: '4° LongPressDraggable',
-                onTap: () => Modular.to.pushNamed('/4/'),
+                onTap: () => Modular.to.pushNamed('/04/'),
               ),
               DsCard(
                 title: '5° InteractiveViewer',
-                onTap: () => Modular.to.pushNamed('/5/'),
+                onTap: () => Modular.to.pushNamed('/05/'),
               ),
               DsCard(
                 title: '6° ReorderableListView',
-                onTap: () => Modular.to.pushNamed('/6/'),
+                onTap: () => Modular.to.pushNamed('/06/'),
               ),
               DsCard(
                 title: '7° CheckboxListTile',
-                onTap: () => Modular.to.pushNamed('/7/'),
+                onTap: () => Modular.to.pushNamed('/07/'),
               ),
               DsCard(
                 title: '8° CicleAvatar',
-                onTap: () => Modular.to.pushNamed('/8/'),
+                onTap: () => Modular.to.pushNamed('/08/'),
               ),
               DsCard(
                 title: '9° CupertinoContextMenu',
-                onTap: () => Modular.to.pushNamed('/9/'),
+                onTap: () => Modular.to.pushNamed('/09/'),
               ),
               DsCard(
                 title: '10° Table',

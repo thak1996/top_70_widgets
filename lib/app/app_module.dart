@@ -1,5 +1,3 @@
-
-
 import 'imports.dart';
 
 class AppModule extends Module {
@@ -9,15 +7,15 @@ class AppModule extends Module {
   @override
   final List<ModularRoute> routes = [
     ModuleRoute('/', module: HomeModule()),
-    ModuleRoute('/1/', module: MaterialBanner1Module()),
-    ModuleRoute('/2/', module: Preferredsize2Module()),
-    ModuleRoute('/3/', module: Bottomsheet3Module()),
-    ModuleRoute('/4/', module: Longpressdraggable4Module()),
-    ModuleRoute('/5/', module: InteractiveViewer5Module()),
-    ModuleRoute('/6/', module: ReorderablelistView6Module()),
-    ModuleRoute('/7/', module: CheckboxlistTile7Module()),
-    ModuleRoute('/8/', module: CicleAvatar8Module()),
-    ModuleRoute('/9/', module: CupertinoContextMenu9Module()),
+    ModuleRoute('/01/', module: MaterialBanner1Module()),
+    ModuleRoute('/02/', module: Preferredsize2Module()),
+    ModuleRoute('/03/', module: Bottomsheet3Module()),
+    ModuleRoute('/04/', module: Longpressdraggable4Module()),
+    ModuleRoute('/05/', module: InteractiveViewer5Module()),
+    ModuleRoute('/06/', module: ReorderablelistView6Module()),
+    ModuleRoute('/07/', module: CheckboxlistTile7Module()),
+    ModuleRoute('/08/', module: CicleAvatar8Module()),
+    ModuleRoute('/09/', module: CupertinoContextMenu9Module()),
     ModuleRoute('/10/', module: Table10Module()),
     ModuleRoute('/11/', module: AlertDialog11Module()),
     ModuleRoute('/12/', module: AnimatedContainer12Module()),
