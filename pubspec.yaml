@@ -22,6 +22,9 @@ flutter:
     - assets/images/images_8.png
     - assets/images/image_21.jpeg
     - assets/images/image_21_2.png
+linter:
+  rules:
+    - use_super_parameters
 
   # To add assets to your application, add an assets section, like this:
   # assets:
